@@ -99,13 +99,6 @@ text_count = DetectText_Image(
 - Shows parent-child relationships between detected text elements
 - Formats confidence scores to 2 decimal places
 - Works with images stored in S3 buckets
-
-## Text Detection Types
-
-The API returns two types of text detections:
-- `LINE`: Complete lines of text detected in the image
-- `WORD`: Individual words within detected lines
-
 ## Notes on Results
 
 - Each text detection includes a unique ID
